@@ -14,4 +14,10 @@ $pinigine->ideti(20);
 $pinigine->ideti(1);
 $pinigine->ideti(0.5);
 
+echo 'Piniginėje yra: ' . $pinigine->skaiciuotiBanknotus() . ' banknotai';
+echo '<br>';
+echo 'Piniginėje yra: ' . $pinigine->skaiciuotiMonetas() . ' banknotai';
+echo '<br>';
+echo 'Bendra suma yra: ' . $pinigine->skaiciuoti() . ' Eur';
+echo '<br>';
 _l($pinigine);
